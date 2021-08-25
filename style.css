@@ -376,20 +376,22 @@ p {
 }
 
 .descripcion_manga--nombre {
-    color: white;
     background-color: transparent;
-    font-size: 1.2em;
-    font-weight: bold;
+    margin: 0px 30px;
+    padding: 0 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.3em;
 }
 
-.descripcion_manga--plataforma {
-    color: white;
+.descripcion_manga--tomo {
     background-color: transparent;
     font-size: 1em;
 }
 
 .descripcion_manga--precio {
-    color: white;
     background-color: transparent;
     font-size: 1em;
 }
@@ -638,29 +640,3 @@ div.boxCarrito div::-webkit-scrollbar-thumb {
 
 
 
-
-
-
-
-
-
-
-
-
-imagen_manga {
-    height: 15em;
-    margin: 0px;
-    width: auto;
-    background: linear-gradient(to left, rgb(131, 55, 58), rgb(189, 117, 123));
-    border-radius: 10px 10px 0px 0px;
-}
-
-
-descripcion_manga {
-    height: auto;
-    padding-top: 10px;
-    background: linear-gradient(to right,rgb(189, 117, 123), hsl(22, 76%, 68%));
-    position: relative;
-    border-radius: 0px 0px 10px 10px;
-    z-index: 2;
-}
