@@ -60,7 +60,7 @@
        "nombre":"Orange",
        "tomo":"part 2",
        "precio":575,
-       "imagen":"assets/orange.jpg"
+       "imagen":"assets/orange.png"
     },
     {
        "id":10,
