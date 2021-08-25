@@ -28,7 +28,7 @@ $.getJSON(url, function(response, state){
                         <p class="descripcion_manga--nombre">${el.nombre}</p>
                         <p class="descripcion_manga--tomo">${el.tomo}</p>
                         <p class="descripcion_manga--precio">$ARS ${el.precio}</p>
-                        <button onClick="agregarJuego(${el.id})">Agregar</button>
+                        <button onClick="agregarManga(${el.id})">Agregar</button>
                     </div>
                 </div>`
             );
