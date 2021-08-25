@@ -441,11 +441,11 @@ div.descripcion_manga button:hover {
     inset 0 0 50px #fff,      
     0 0 20px #E15727,           
     -10px 0 20px #E15727,        
-    10px 0 20px #0ff;        
+    10px 0 20px  rgb(255, 145, 0);            
 }
 
 .fa-check {
-    color: greenyellow;
+    color: red;
 }
 
 .contacto {
