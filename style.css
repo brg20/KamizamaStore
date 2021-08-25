@@ -344,7 +344,7 @@ div.manga:hover {
 }
 
 .imagen_manga {
-    margin: 0px;
+    margin: 15px;
     width: auto;
     background: white;
     position: relative;
