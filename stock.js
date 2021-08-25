@@ -10,7 +10,7 @@ $.getJSON(url, function(response, state){
 
         // GUARDAR datos EN EL ARRAY managas CON SUS ATRIBUTOS Y FUNCIONES
         for(let item of datos){
-            managas.push(new Manga(item.id, item.nombre, item.tomo, item.precio, item.imagen));
+            mangas.push(new Manga(item.id, item.nombre, item.tomo, item.precio, item.imagen));
         }
 
         //GUARDAR ARRAY mangas EN EL LOCAL STORAGE
