@@ -504,7 +504,7 @@ div.contacto div:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #29333D;
+    background-color: wheat;
 }
 
 .compra_box {
@@ -550,7 +550,7 @@ div.table_compra table td {
     text-align: center;
     border: none;
     font-weight: bold;
-    background-color: rgba(22, 224, 189, 0.6);
+    background-color: rgb(254, 95, 85, 0.6);
     transition: all 0.5s;
 }
 
@@ -568,15 +568,13 @@ button.confirmarCompra:hover {
     text-align: center;
     border: none;
     font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.6);
     color: black;
     font-size: 1em;
     transition: all 0.5s;
 }
 
 a.volver:hover{
-    color: white;
-    background-color: gray;
+    color: #E15727;
 }
 
 div.boxCarrito div::-webkit-scrollbar {
