@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5f4f906fbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Kamizama Store</title>
+</head>
+<body>
+    
+    <!-- Box para mostrar Carrito -->
+    <div class="fondo_gris" id="fondoGris"></div>
+    <div class="box_carrito" id="boxCarrito"></div>
+
+    <!-- NAV -->
+    <div class="nav">
+        <div class="nav__titulo">
+            <h1>Kamizama Store</h1>
+        </div>
+        <div class="nav__links">
+            <a href="index.html">Home</a>
+            <a href="#tienda">Tienda</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </div>    
+
+    <!-- Icono del carrito con contador de items-->
+    <div class="iconoCarrito" id="iconoCarrito">
+        <i class="fas fa-shopping-cart" id="carritoIcono"></i>
+        <div class="iconoCarrito__numero" id="carritoNumero">0</div>
+    </div>
+
+    <!-- Slide -->
+    <div class="slide">
+        <div class="main main_1"></div>
+        <div class="main main_2"></div>
+        <div class="main main_3"></div>
+        <div class="main main_4"></div>
+        <div class="main main_5"></div>
+    </div>
+    <div class="logo">
+        <div class="logo_titulo">KAMIZAMA </div>
+        <div class="logo_subtitulo"> <a href="#tienda">STORE</a></div>
+    </div>
+    
+    <!-- Alerta cuando se agrega un item al carrito -->
+    <div class="alerta" id="alerta"></div>
+    
+
+    <div class="contenedor__mangas" id="tienda">
+            <div class="mangasDOM" id="mangasDOM"> </div>    
+        </div>
+        
+    </div>    
+
+    
+    <div class="contacto">
+        <div class="hvr-sweep-to-right">
+            <h2>Contacto:</h2>
+            <p><i class="far fa-envelope"></i>  info@kamizamaStore.com</p>
+            <p><i class="fab fa-instagram"></i>  @kamizamaStore</p>
+            <p><i class="fab fa-twitter"></i>  @kamizamaStore</p>
+            <p><i class="fas fa-map-marker-alt"></i>  Bs As, Argentina</p>
+            <p></p>
+        </div>
+    </div>
+
+        
+    <!-- BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="stock.js"></script>
+    <script src="codigo.js"></script>
+    <script src="slide.js"></script>
+</body>
+</html>
