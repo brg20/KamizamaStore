@@ -354,12 +354,10 @@ div.manga:hover {
 }
 
 .imagen_manga img {
-    height: 140%;
+    height: 100%;
     width: auto;
-    background-color: transparent;
+    max-height: 390px;
     position: relative;
-    left: -27px;
-    top: -25px;
 }
 
 .descripcion_manga {
