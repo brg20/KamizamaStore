@@ -4,49 +4,49 @@
        "nombre":"Slam Dunk",
        "tomo":"Part 3",
        "precio":895,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/slamdunk.jpg"
     },
     {
        "id":2,
        "nombre":"The Boys",
        "tomo":"Dear Becky",
        "precio":1750,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/theboys.jpg"
     },
     {
        "id":3,
        "nombre":"Jojo's Bizarre Adventure",
        "tomo":"part 4",
        "precio":3000,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/jbza.jpg"
     },
     {
        "id":4,
        "nombre":"Your Lie In April",
        "tomo":"part 4",
        "precio":1500,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/ylia.jpg"
     },
     {
        "id":5,
        "nombre":"Banana Fish",
        "tomo":"part 3",
        "precio":1100,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/bananafish.jpg"
     },
     {
        "id":6,
        "nombre":"Jujutsu Kaisen",
        "tomo":"part 9",
        "precio":575,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/jujutsukaisen.jpg"
     },
     {
        "id":7,
        "nombre":"Berserk",
        "tomo":"part 19",
        "precio":575,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/berserk.jpg"
     },
     {
        "id":8,
@@ -60,14 +60,14 @@
        "nombre":"Orange",
        "tomo":"part 2",
        "precio":575,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/orange.jpg"
     },
     {
        "id":10,
        "nombre":"Your Name",
        "tomo":"part 3",
        "precio":525,
-       "imagen":"assets/tomie01.jpg"
+       "imagen":"assets/yourname.jpg"
     }
     
 ]
